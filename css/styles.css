@@ -11,7 +11,7 @@
     --letters-color: #fff;
 }
 
-.body{
+body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--letters-color);
     color: var(--primary-text-color);
@@ -20,6 +20,8 @@
 a{
     text-decoration: none;
 }
+
+/* Header */
 
 .logo{
     color: var(--accent-color);
@@ -49,8 +51,6 @@ ul{
 
 .site-nav a {
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -67,7 +67,6 @@ ul{
 
 .contacts a{
     color: var(--seconday-text-color);
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -88,8 +87,6 @@ ul{
 
 .hero-title{
     color: var(--letters-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
@@ -102,6 +99,7 @@ ul{
     color: var(--letters-color);
     background-color: var(--accent-color);
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -109,7 +107,6 @@ ul{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    font-style: normal;
     cursor: pointer;
 }
 
@@ -119,12 +116,11 @@ ul{
     color: var(--primary-text-color);
     background-color: #F5F4FA;
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     letter-spacing: 0.03em;
-    font-style: normal;
     cursor: pointer;
 }
 
@@ -134,20 +130,14 @@ ul{
 
 .main-titles{
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    font-style: normal;
 }
 
 .main-paragraphs{
     color: var(--seconday-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -155,8 +145,6 @@ ul{
 
 .names{
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -165,9 +153,6 @@ ul{
 
 .description{
     color: var(--seconday-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -175,9 +160,6 @@ ul{
 
 .examples-titles{
     color: var(--primary-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -185,9 +167,6 @@ ul{
 
 .examples-paragraphs{
     color: var(--seconday-text-color);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -197,9 +176,7 @@ ul{
 
 .studio-address{
     color: var(--letters-color);
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
