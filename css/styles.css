@@ -8,19 +8,37 @@
     --primary-text-color: #212121;
     --seconday-text-color: #757575;
     --accent-color: #2196F3;
+    --letters-color: #fff;
 }
 
 .body{
-    background-color: #fff;
+    background-color: var(--letters-color);
     color: var(--primary-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo{
     color: var(--accent-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .logo-part{
     color: #000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 ul{
@@ -31,6 +49,12 @@ ul{
 
 .site-nav a {
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav a:hover,.site-nav a:focus{
@@ -43,6 +67,12 @@ ul{
 
 .contacts a{
     color: var(--seconday-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts a:hover,.contacts a:focus{
@@ -53,16 +83,33 @@ ul{
 
 /* Додаю колір, щоб було видно білі літери, потім перероблю як треба */
 .hero-section{
-    background-color: #2F303A;;   
+    background-color: #2F303A;   
 }
 
 .hero-title{
-    color: #fff;
+    color: var(--letters-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button{
-    color: #fff;
+    color: var(--letters-color);
     background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    font-style: normal;
 }
 
 /* Main */
@@ -70,6 +117,13 @@ ul{
 .buttons-list button{
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .buttons-list button:hover,.buttons-list button:focus{
@@ -78,16 +132,75 @@ ul{
 
 .main-titles{
     color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
 }
 
 .main-paragraphs{
-    color: #757575;
+    color: var(--seconday-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.names{
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.description{
+    color: var(--seconday-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+}
+
+.examples-titles{
+    color: var(--primary-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.examples-paragraphs{
+    color: var(--seconday-text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
 /* Footer */
 
 .studio-address{
-    color: #fff;
+    color: var(--letters-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 
 .footer{
@@ -95,5 +208,5 @@ ul{
 }
 
 .logo-footer{
-    color: #fff;
+    color: var(--letters-color);
 }
