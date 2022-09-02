@@ -1,15 +1,25 @@
-:root{}
+/* колір основного тексту #212121 */
+/* другий колір тексту #757575 */
+/* білий #fff */
+/* чорний #000 */
+/* акцент #2196F3 */
+
+:root{
+    --primary-text-color: #212121;
+    --seconday-text-color: #757575;
+    --accent-color: #2196F3;
+}
 
 .body{
     background-color: #fff;
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .logo{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
-.logo2{
+.logo-part{
     color: #000;
 }
 
@@ -20,20 +30,70 @@ ul{
 /* Site nav */
 
 .site-nav a {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .site-nav a:hover,.site-nav a:focus{
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+    color: var(--accent-color)
 }
 
 .contacts a{
-    color: #757575;
+    color: var(--seconday-text-color);
 }
 
 .contacts a:hover,.contacts a:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Hero */
 
+/* Додаю колір, щоб було видно білі літери, потім перероблю як треба */
+.hero-section{
+    background-color: #2F303A;;   
+}
+
+.hero-title{
+    color: #fff;
+}
+
+.hero-button{
+    color: #fff;
+    background-color: var(--accent-color);
+}
+
+/* Main */
+
+.buttons-list button{
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+.buttons-list button:hover,.buttons-list button:focus{
+    background-color: var(--accent-color);
+}
+
+.main-titles{
+    color: var(--primary-text-color);
+}
+
+.main-paragraphs{
+    color: #757575;
+}
+
+/* Footer */
+
+.studio-address{
+    color: #fff;
+}
+
+.footer{
+    background-color: #2F303A;
+}
+
+.logo-footer{
+    color: #fff;
+}
